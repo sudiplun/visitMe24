@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>visitMe</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <script src="/js/dark.js"></script>
+    <title>visitMe</title>
   </head>
 
   <body>
+    <!-- Add the theme switch button -->
+    <button id="themeSwitchButton">Switch Theme</button>
+    <!-- end of button -->
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -27,12 +32,17 @@
       <div class="row mt-3">
         <!-- Tools start here -->
         <div class="col-md-4">
-          <div class="card">
+          <div class="card d-flex flex-column h-100">
             <div class="card-body">
               <h3 class="card-title text-center">TOOLS</h3>
               <ul class="list-unstyled">
                 <li><a href="https://123apps.com/">123apps</a></li>
                 <li><a href="https://myfreemp3.to/">MyFreeMP3</a></li>
+                <li>
+                  <a href="https://www.cutout.pro/passport-photo-maker"
+                    >passport-photo-maker</a
+                  >
+                </li>
                 <li>
                   <a href="https://app.sajilocv.com/cv-builder#">CV Builder</a>
                 </li>
@@ -49,7 +59,7 @@
 
         <!-- AI bookmarks -->
         <div class="col-md-4">
-          <div class="card">
+          <div class="card d-flex flex-column h-100">
             <div class="card-body">
               <h3 class="card-title text-center">AI</h3>
               <ul class="list-unstyled">
@@ -65,6 +75,13 @@
                 <li>
                   <a href="https://www.phind.com/">Phind: AI search engine</a>
                 </li>
+                <h5 class="card-subtitle my-2">Image</h5>
+                <li><a href="https://clipdrop.co/tools">clipdrop</a></li>
+                <li>
+                  <a href="https://www.cutout.pro/"
+                    >Cutout.Pro - AI Photo Editing
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -72,7 +89,7 @@
 
         <!-- IELTS bookmarks -->
         <div class="col-md-4">
-          <div class="card">
+          <div class="card d-flex flex-column h-100">
             <div class="card-body">
               <h3 class="card-title text-center">IELTS</h3>
               <ul class="list-unstyled">
@@ -147,7 +164,7 @@
 
         <!-- Developer bookmarks -->
         <div class="col-md-4">
-          <div class="card">
+          <div class="card d-flex flex-column h-100">
             <div class="card-body">
               <h3 class="card-title text-center">Dev</h3>
               <ul class="list-unstyled">
@@ -163,7 +180,7 @@
 
         <!-- Travel guide bookmarks -->
         <div class="col-md-4">
-          <div class="card">
+          <div class="card d-flex flex-column h-100">
             <div class="card-body">
               <h3 class="card-title text-center">Travel</h3>
               <ul class="list-unstyled">
