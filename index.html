@@ -15,9 +15,22 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     /> -->
+    <!-- Add your custom CSS for dark mode here -->
+    <link
+      rel="stylesheet"
+      href="assets/css/dark-mode.css"
+      id="dark-mode-stylesheet"
+    />
   </head>
 
   <body>
+    <!-- Add a button for dark and light mode -->
+    <button
+      id="dark-mode-toggle"
+      class="btn btn-light btn-sm position-fixed top-0 end-0 m-3"
+    >
+      Dark Mode
+    </button>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -30,7 +43,7 @@
       </div>
 
       <div class="row mt-3">
-        <!-- Tools start here -->
+        <!-- Tools bookmark start here -->
         <div class="col-md-4">
           <div class="card d-flex flex-column h-100">
             <div class="card-body">
@@ -39,17 +52,24 @@
                 <li><a href="https://123apps.com/">123apps</a></li>
                 <li><a href="https://myfreemp3.to/">MyFreeMP3</a></li>
                 <li>
-                  <a href="https://www.cutout.pro/passport-photo-maker"
-                    >passport-photo-maker</a
+                  <a
+                    href="https://www.easynepalityping.com/preeti-to-unicode-converter"
+                    >FREE Preeti to Unicode</a
                   >
                 </li>
+                <h5 class="card-subtitle my-2">Network</h5>
+                <li>
+                  <a href="https://toffeeshare.com/"
+                    >local file share via web</a
+                  >
+                </li>
+                <h5 class="card-subtitle my-2">online from helpper</h5>
                 <li>
                   <a href="https://app.sajilocv.com/cv-builder#">CV Builder</a>
                 </li>
                 <li>
-                  <a
-                    href="https://www.easynepalityping.com/preeti-to-unicode-converter"
-                    >FREE Preeti to Unicode</a
+                  <a href="https://www.cutout.pro/passport-photo-maker"
+                    >passport-photo-maker</a
                   >
                 </li>
               </ul>
@@ -93,6 +113,16 @@
             <div class="card-body">
               <h3 class="card-title text-center">IELTS</h3>
               <ul class="list-unstyled">
+                <!--start Dictionary bookmarks -->
+                <h5 class="card-subtitle my-2">Dictionary</h5>
+                <li>
+                  <a href="https://dictionary.cambridge.org/"
+                    >Cambridge Dictionary</a
+                  >
+                </li>
+                <li><a href="https://ozdic.com/">Collocation Dictionary</a></li>
+
+                <!--End Dictionary bookmarks -->
                 <h5 class="card-subtitle my-2">Grammar</h5>
                 <li>
                   <a href="https://www.talkenglish.com/grammar/grammar.aspx"
@@ -131,13 +161,7 @@
                     Speaking Topics and Vocabulary</a
                   >
                 </li>
-                <h5 class="card-subtitle my-2">Dictionary</h5>
-                <li>
-                  <a href="https://dictionary.cambridge.org/"
-                    >Cambridge Dictionary</a
-                  >
-                </li>
-                <li><a href="https://ozdic.com/">Collocation Dictionary</a></li>
+
                 <h5 class="card-subtitle my-2">Tools</h5>
                 <li><a href="https://app.wordtune.com/editor/">Wordtune</a></li>
                 <h5 class="card-subtitle my-2">NEWS</h5>
@@ -265,5 +289,25 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script> -->
+    <!-- Add your custom JavaScript for dark and light mode switch -->
+    <script>
+      // Function to toggle dark mode
+      function toggleDarkMode() {
+        const darkModeStylesheet = document.getElementById(
+          "dark-mode-stylesheet"
+        );
+        if (
+          darkModeStylesheet.getAttribute("href") === "assets/css/dark-mode.css"
+        ) {
+          darkModeStylesheet.setAttribute("href", "");
+        } else {
+          darkModeStylesheet.setAttribute("href", "assets/css/dark-mode.css");
+        }
+      }
+
+      // Event listener for the dark mode toggle button
+      const darkModeToggle = document.getElementById("dark-mode-toggle");
+      darkModeToggle.addEventListener("click", toggleDarkMode);
+    </script>
   </body>
 </html>

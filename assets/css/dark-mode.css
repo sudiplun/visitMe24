@@ -1,0 +1,30 @@
+/* Set background and text color for dark mode */
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Style the card backgrounds in dark mode */
+.card {
+  background-color: #444;
+  border: 1px solid #666;
+}
+
+/* Style the dark mode button */
+#dark-mode-toggle {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Style the links in dark mode */
+a {
+  color: #bb86fc;
+}
+
+/* Style the footer in dark mode */
+footer {
+  background-color: #222;
+  color: #bbb;
+}
+
+/* Additional styles for other elements can be added as needed */
