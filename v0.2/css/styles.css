@@ -1,0 +1,9 @@
+/* Dark mode styles */
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark-mode a {
+  color: #bb86fc; /* Custom link color for dark mode */
+}
