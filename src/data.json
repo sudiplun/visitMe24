@@ -1,0 +1,47 @@
+[
+  {
+    "categories": "TOOLS",
+    "member": [
+      {
+        "sub-category": "Network",
+        "icon": "icon",
+        "title": "Local file share",
+        "url": "https://toffeeshare.com/"
+      },
+      {
+        "sub-category": "Converter",
+        "icon": "icon",
+        "title": "Passport Photo maker",
+        "url": "https://www.cutout.pro/passport-photo-maker"
+      }
+    ]
+  },
+  {
+    "categories": "sport",
+    "member": [
+      {
+        "sub-category": "live",
+        "icon": "icon",
+        "title": "crichd",
+        "url": "http://www.crichd.tv"
+      },
+      {
+        "sub-category": "live",
+        "icon": "icon",
+        "title": "crichd",
+        "url": "https://totalsportk.org/"
+      }
+    ]
+  },
+  {
+    "categories": "AI",
+    "member": [
+      {
+        "sub-category": "Core",
+        "icon": "icon",
+        "title": "Chatgpt",
+        "url": "https://chatgpt.com/"
+      }
+    ]
+  }
+]
