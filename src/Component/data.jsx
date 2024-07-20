@@ -58,38 +58,6 @@ export const BOOKMARKS = [
       },
     ],
   },
-  // IELTS
-  {
-    categories: "IELTS",
-    member: [
-      {
-        icon: "icon",
-        title: "cambrige dictionary",
-        url: "https://dictionary.cambridge.org/",
-      },
-      {
-        icon: "",
-        title: "Collocation dictionary",
-        url: "https://ozdic.com/",
-      },
-
-      {
-        icon: "",
-        title: "Basic grammer",
-        url: "https://www.talkenglish.com/grammar/grammar.aspx",
-      },
-      {
-        icon: "",
-        title: "essay bank",
-        url: "https://www.ieltsessaybank.com/",
-      },
-      {
-        icon: "",
-        title: "writing9",
-        url: "https://writing9.com/ielts-writing-samples",
-      },
-    ],
-  },
   // sport
   {
     categories: "sport",
