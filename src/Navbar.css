@@ -1,8 +1,0 @@
-h3.topnav {
-  float: right;
-  top: 0;
-  place-items: center;
-  display: flex;
-  position: fixed;
-  overflow: hidden;
-}
