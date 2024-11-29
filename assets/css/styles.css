@@ -1,0 +1,33 @@
+* {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/*navbar*/
+ul {
+  list-style-type: none;
+}
+
+nav {
+  margin: 0 50px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+/* dark-mode styling */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark-mode button {
+  background-color: #333333;
+  color: #ffffff;
+}
