@@ -1,4 +1,5 @@
 * {
+  box-sizing: border-box;
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -19,6 +20,38 @@ nav ul {
   display: flex;
   flex-direction: row;
   gap: 50px;
+}
+
+.container {
+  display: grid;
+  justify-content: flex-start;
+  grid-template-columns: 1fr 1fr;
+  width: 720px;
+  margin-top: 40px;
+}
+
+.content {
+  padding: 14px;
+}
+
+h2 {
+  margin-bottom: 8px;
+  /*text-align: center;*/
+}
+
+/* unvisited link */
+a:link {
+  color: #BA8E23;
+}
+
+/* visited link */
+a:visited {
+  color: #31738D;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
 }
 
 /* dark-mode styling */

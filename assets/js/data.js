@@ -28,6 +28,8 @@ export const data = [
       },
     ],
   },
+
+  //IELTS
   {
     categories: "IELTS",
     member: [
@@ -41,7 +43,6 @@ export const data = [
         title: "Collocation dictionary",
         url: "https://ozdic.com/",
       },
-
       {
         icon: "",
         title: "Basic grammer",
@@ -59,9 +60,10 @@ export const data = [
       },
     ],
   },
+
   // sport
   {
-    categories: "sport",
+    categories: "SPORT",
     member: [
       {
         sub_category: "live",
@@ -77,27 +79,19 @@ export const data = [
       },
     ],
   },
-  // Ai
+
+  //Movies
   {
-    categories: "AI",
+    categories: "MOVIES",
     member: [
+      { title: "Net Movies", url: "https://web.netmovies.to/home/" },
       {
-        sub_category: "Core",
-        icon: "icon",
-        title: "Chatgpt",
-        url: "https://chatgpt.com/",
+        title: "sflx live",
+        url: "https://sflix2.to/home",
       },
-    ],
-  },
-  //DEVELOPER
-  {
-    categories: "DEVELOPER",
-    member: [
       {
-        sub_category: "editor",
-        icon: "icon",
-        title: "extension",
-        url: "https://marketplace.visualstudio.com/",
+        title: "MoviesMod Download",
+        url: "https://moviesmod.bot",
       },
     ],
   },

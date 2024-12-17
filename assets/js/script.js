@@ -1,24 +1,31 @@
 import { data } from "./data.js";
 
-console.log("Imported data:", data); // Debugging step
+//console.log("Imported data:", data); // Debugging step
 
-const contentDiv = document.getElementById("content");
+// Define the method
+data.getLinksByCategory = function (category) {
+  const categoryData = this.find((item) => item.categories === category);
+  if (!categoryData) return `Category "${category}" not found.`;
+  const links = categoryData.member
+    .map(
+      (member) => `<a href="${member.url}" target="_blank">${member.title}</a>`,
+    )
+    .join("<br>");
+  return `<h2>${categoryData.categories}</h2>${links}`;
+};
 
-data.forEach((category) => {
-  // Create and append the category title
-  const categoryTitle = document.createElement("h2");
-  categoryTitle.textContent = category.categories;
-  contentDiv.appendChild(categoryTitle);
+//TOOLS Div
+const toolsDiv = document.getElementById("Tools");
+toolsDiv.innerHTML = data.getLinksByCategory("TOOLS");
 
-  // Create and append a list of members
-  const memberList = document.createElement("ul");
-  category.member.forEach((member) => {
-    const listItem = document.createElement("li");
-    listItem.innerHTML = `
-      <strong>${member.sub_category}</strong> 
-      <a href="${member.url}" target="_blank">${member.title}</a>
-    `;
-    memberList.appendChild(listItem);
-  });
-  contentDiv.appendChild(memberList);
-});
+//Sports Div
+const SportDiv = document.getElementById("Sports");
+SportDiv.innerHTML = data.getLinksByCategory("SPORT");
+
+//IELTS Div
+const IeltsDiv = document.getElementById("Ielts");
+IeltsDiv.innerHTML = data.getLinksByCategory("IELTS");
+
+//Movies
+const moviesDiv = document.getElementById("Movies");
+moviesDiv.innerHTML = data.getLinksByCategory("MOVIES");

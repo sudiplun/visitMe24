@@ -1,0 +1,20 @@
+{
+  "name": "visitme24",
+  "version": "1.0.0",
+  "description": "collectin of sites",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -a localhost -p 8080 -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudiplun/visitMe24.git"
+  },
+  "author": "Sudip Lun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudiplun/visitMe24/issues"
+  },
+  "homepage": "https://github.com/sudiplun/visitMe24#readme"
+}
